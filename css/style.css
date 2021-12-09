@@ -4,48 +4,82 @@
     text-decoration: none;
     list-style-type: none;
 }
-h5{
-width: 100%;
-height: 25px;
-background-color:mediumseagreen ;
-color: white;
-margin-top: 20px;
-}
+
 .principal{
     display: flex;
     justify-content: space-between;
 }
 .container-esquerdo{
-  
+    background-color: #ededed;
+  position: fixed;
     width: 40%;
     border-right: 1px solid;
-   
+    height: 450px;
+  
 
 }
 .imagens-cabecalho{
-   
     width: 35px;
     justify-content: center;
+    padding-top: 10px;
 
 }
-.container.direito {
+#usuario{
+    margin-left: 35px;
+}
+#icon{
+    margin-left: 80px;
+}
+.container-direito {
     width: 70%;
+    margin-left: 700px;
+   
   
 
 }
 .container-direito h2, p {
-    width: 35%;
+   text-align: center;
     color:gray;
-    justify-content: space-evenly;
+ 
+   
+  
     
 }
-.botao-pesquisar{
+.imagem{
+    margin-left: 570px;
+}
+.botaopesquisar{
     background-color:white;
-    border-radius: 10px;
-    width: 400px;
+    border-radius: 60px;
+    width: 90%;
     height: 35px;
+    align-items: center;
+    margin-top: 20px;
+    margin-top: 50px;
 }
 #lupa{
-    width: 50px;
-    height: 30px;
+    width: 20px;
+    height: 10px;
+   
+    
+}
+.perfil-usuario{
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    display: none;
+   
+}
+.nova-conversa{
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    display: none;
+   
+}
+#lupa-pesquisar-conversa{
+    width: 20px;
+    height: 10px;
 }
