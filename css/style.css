@@ -18,17 +18,23 @@
   
 
 }
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .imagens-cabecalho{
-    width: 35px;
-    justify-content: center;
-    padding-top: 10px;
+    width: 25px;
+    margin-top: 15px;
 
 }
 #usuario{
     margin-left: 35px;
 }
 #icon{
-    margin-left: 80px;
+    margin-left: 20px;
+    margin-right: 30px;
 }
 .container-direito {
     width: 70%;
@@ -48,21 +54,20 @@
 .imagem{
     margin-left: 570px;
 }
-.botaopesquisar{
+.input-pesquisar{
+    background-image: url("images/622669.png");
     background-color:white;
     border-radius: 60px;
     width: 90%;
     height: 35px;
     align-items: center;
-    margin-top: 20px;
+   margin-left: 20px;
     margin-top: 50px;
+    border-color: transparent;
+    outline: none; /* Serve para Remova contornos */
 }
-#lupa{
-    width: 20px;
-    height: 10px;
-   
-    
-}
+
+
 .perfil-usuario{
     position: fixed;
     top: 0;
