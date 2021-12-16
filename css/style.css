@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
     font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
@@ -46,11 +47,7 @@
 }
 .container-direito h2, p {
    text-align: center;
-    color:gray;
- 
-   
-  
-    
+   color:gray;
 }
 .imagem{
     margin-left: 570px;
@@ -100,6 +97,7 @@
 
 .landing {
     background-color: #090e11;
+    padding-bottom: 150px;
 }
 
 header {
@@ -134,12 +132,76 @@ header {
  * Seção do card
  */
 
- .card-content {
-    width: 70%;
+.card-content {
+    width: 75%;
     min-height: 100px;
     background-color: white;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
-    border-radius:  3px;
- }
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+.card-description {
+    width: 65%;
+    padding: 50px 0 50px 50px;
+}
+
+.card-description h1 {
+    font-weight: 100;
+}
+
+.card-description ol {
+    margin-top:  30px;
+    margin-left:  20px;
+}
+
+.card-description ol li {
+    list-style-type: decimal;
+    font-size: 14pt;
+    line-height: 50px;
+    color: #4A4A4A;
+}
+
+.card-description ol b {
+    color: #5A5A5A;
+}
+
+.card-description p {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.card-description a {
+    color: #00bda3;
+}
+
+.card-qrcode {
+    width:  30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.card-qrcode img {
+    width:  100%;
+}
+
+.card-qrcode label {
+    margin-top:  10px;
+}
+
+.card-video {
+    width:  100%;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
