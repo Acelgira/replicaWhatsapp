@@ -98,3 +98,34 @@
  * 
  */
 
+.landing {
+    background-color: #090e11;
+}
+
+header {
+    min-height: 222px;
+    background-color: #00bda3;
+}
+
+.container {
+    padding-top: 47px;
+    width: 75%;
+    margin: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    width: 100px;
+}
+
+.navbar-brand .title {
+    color:  white;
+    text-transform: uppercase;
+    font-size: small;
+    margin-left: 10px;
+    user-select: none;
+}
