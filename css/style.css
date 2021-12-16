@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
 }
 
 .principal{
@@ -118,3 +119,57 @@
   
 
 }
+
+
+/**
+ * Landing Page 
+ *
+ * By:  Dorivaldo Valentim
+ * 
+ */
+
+.landing {
+    background-color: #090e11;
+}
+
+header {
+    min-height: 222px;
+    background-color: #00bda3;
+}
+
+.container {
+    padding-top: 47px;
+    width: 75%;
+    margin: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    width: 100px;
+}
+
+.navbar-brand .title {
+    color:  white;
+    text-transform: uppercase;
+    font-size: small;
+    margin-left: 10px;
+    user-select: none;
+}
+
+/**
+ * Seção do card
+ */
+
+ .card-content {
+    width: 70%;
+    min-height: 100px;
+    background-color: white;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:  3px;
+ }
